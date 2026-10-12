@@ -84,7 +84,7 @@ times = 1
 target = 'flame.fs'
 pattern = 'vec4 effect*'
 position = "at"
-payload = "mediump vec4 effect( mediump vec4 colour, Image texture, mediump vec2 texture_coords, mediump vec2 screen_coords )"
+payload = "vec4 effect( vec4 colour, Image texture, vec2 texture_coords, vec2 screen_coords )"
 match_indent = true
 times = 1
 
